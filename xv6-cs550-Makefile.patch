@@ -1,0 +1,12 @@
+diff -uNr xv6-cs550-base/Makefile xv6-cs550-base_myversion/Makefile
+--- xv6-cs550-base/Makefile	2015-01-27 16:35:49.000000000 -0500
++++ xv6-cs550-base_myversion/Makefile	2015-01-27 21:11:34.102845652 -0500
+@@ -51,7 +51,7 @@
+ endif
+ 
+ # If the makefile can't find QEMU, specify its path here
+-# QEMU = qemu-system-i386
++QEMU = ~zhangy/t_bin/qemu-system-i386
+ 
+ # Try to infer the correct QEMU
+ ifndef QEMU
